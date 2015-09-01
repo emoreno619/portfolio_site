@@ -1,0 +1,18 @@
+/*------------------------------------------------------------------
+Horizon Reveal
+Version: 1;
+Author: ThemeMountain
+Copyright: ThemeMountain
+-------------------------------------------------------------------*/
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.horizon{
+	opacity: 0;
+	visibility: hidden;
+}
