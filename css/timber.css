@@ -904,7 +904,7 @@ body.boxed .wrapper-inner{
 [8. Images]
 */
 img{
-	max-width: 100%;
+	max-width: 170%;
 	height: auto;
 	display: inline-block;
 	vertical-align: middle;
