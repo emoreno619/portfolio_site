@@ -98,4 +98,7 @@
 		// and return it
 		return this.each( replaceImage );
 	};
+
+	$( 'img' ).retinizeImages()
+	
 })( jQuery );

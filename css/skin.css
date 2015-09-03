@@ -1118,7 +1118,8 @@ h5.project-title{
 	background-image: url(../images/generic/hero-half-5.jpg);
 }
 .hero-5-about-2 > .row:after{
-	background-image: url(../images/me_lying.jpg);
+	background-image: url(../images/rsz_me_lying.jpg);
+
 }
 .hero-5-about-3 > .row:after{
 	background-image: url(../images/team/hero-half-3.jpg);
@@ -2572,7 +2573,7 @@ only screen and (				min-resolution: 2dppx) {
 		background-image: url(../images/generic/hero-half-5@2x.jpg);
 	}
 	.hero-5-about-2 > .row:after{
-		background-image: url(../images/team/hero-half-2@2x.jpg);
+		background-image: url(../images/rsz_me_lying.jpg);
 	}
 	.hero-5-about-3 > .row:after{
 		background-image: url(../images/team/hero-half-3@2x.jpg);

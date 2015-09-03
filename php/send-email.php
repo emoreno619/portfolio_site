@@ -1,6 +1,7 @@
 <?php	
 	// Your Email
-	$recipient = ""; // PLEASE SET YOUR EMAIL ADDRESS
+	$recipient = "emoreno@uchicago.edu"; // PLEASE SET YOUR EMAIL ADDRESS
+
 	
 	// Check $recipient
 	if($recipient === '') {
