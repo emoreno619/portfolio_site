@@ -1,0 +1,138 @@
+/*------------------------------------------------------------------
+Snowbridge Parallax
+Version: 1.0.1;
+Author: ThemeMountain
+Copyright: ThemeMountain
+
+[Table of contents]
+
+1. Wrappers
+2. Media
+3. Preloader
+-------------------------------------------------------------------*/
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*------------------------------------------------------------------
+[1. Wrappers]
+*/
+.parallax{
+	height: 55rem;
+	background: #000;
+	position: relative;
+	overflow: hidden;
+}
+.parallax.fullscreen{
+	width: 100%;
+	height: 100%;
+	height: 100vh;
+}
+.parallax .horizon{
+	opacity: 0;
+	visibility: hidden;
+}
+.tm-parallax,
+.tmp-content, 
+.tmp-content-inner{
+	width: 100%;
+	height: 100%;
+}
+.tmp-content{
+	max-width: 114rem;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+	text-align: center;
+}
+.tm-parallax {
+	overflow: hidden;
+	visibility: visible;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	-webkit-backface-visibility: hidden;
+}
+.tmp-content{
+	display: table;
+}
+.tmp-content-inner{
+	height: 100%;
+	vertical-align: middle;
+	display: table-cell;
+	float: none;
+	position: relative;
+	z-index: 1;
+}
+.tmp-content-inner.left{
+	text-align: left;
+}
+.tmp-content-inner.right{
+	text-align: right;
+}
+.tmp-content-inner.v-align-top{
+	padding-top: 7rem;
+	vertical-align: top;
+}
+.tmp-content-inner.v-align-bottom{
+	padding-bottom: 7rem;
+	vertical-align: bottom;
+}
+.tmp-mobile{
+	height: 'auto';
+}
+
+/*------------------------------------------------------------------
+[2. Media]
+*/
+.tm-parallax img{
+	width: 100%;
+	max-width: none;
+	position: absolute;
+	opacity: 1;
+	-webkit-backface-visibility: hidden;
+}
+
+/*------------------------------------------------------------------
+[3. Preloader]
+*/
+
+/* Remove if full framework is used */
+.tm-loader, 
+.tm-loader #circle{
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+.tm-loader {
+	width: 2rem;
+	height: 2rem;
+	margin: -1rem 0 0 -1rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;	
+}
+.tm-loader #circle {
+	width: 2rem;
+	height: 2rem;
+	background: #666666;
+	-webkit-animation:preloader 1s ease infinite;
+	   -moz-animation:preloader 1s ease infinite;
+	     -o-animation:preloader 1s ease infinite;
+	        animation:preloader 1s ease infinite;
+}
+@-webkit-keyframes preloader{
+	from { opacity: 1;	-webkit-transform: scale( 1 ); }
+	to	 { opacity: 0;	-webkit-transform: scale( 0 ); }
+}
+@keyframes preloader{
+	from { opacity: 1;	transform: scale( 1 ); }
+	to	 { opacity: 0;	transform: scale( 0 ); }
+}
