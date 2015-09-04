@@ -2537,6 +2537,12 @@ a.disabled .text-line{
 [22. Resolution Media Queries]
 */
 
+@media only screen and (min-width: 768px) and (max-width: 1600px){
+    .hero-5-about-2 > .row:after{
+        background-position: left;
+    }
+}
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
@@ -2703,4 +2709,5 @@ only screen and (				min-resolution: 2dppx) {
 	.fs-section-5{
 		background-image: url(../images/slider/slide-7-fs@2x.jpg);
 	}
+
 }
