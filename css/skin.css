@@ -2611,9 +2611,25 @@ a.disabled .text-line{
 [22. Resolution Media Queries]
 */
 
-@media only screen and (max-width: 1600px){
-    .hero-5-about-2 > .row:after{
-        background-position: left;
+@media only screen and (min-width: 401px) and (max-width: 1600px){
+
+	.hero-5-about-2 > .row:after{
+	    background-position: left;
+	}
+
+    .content-grid-4{
+    	margin-left: 9.5rem;
+    }
+}
+
+@media only screen and (max-width: 400px){
+
+	.hero-5-about-2 > .row:after{
+	    background-position: left;
+	}
+
+    .content-grid-4 > {
+    	margin-left: 2.5rem;
     }
 }
 
