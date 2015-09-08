@@ -22,7 +22,7 @@
 
 	    $(window).on('scroll', function() {
 
-	        $('h1').fadeOut(500);
+	        // $('h1').fadeOut(500);
 
 	        var windowTop = $(window).scrollTop(),
 	            scrollPercent = (offset.top - windowTop) / offset.top,
