@@ -2533,6 +2533,50 @@ a.disabled .text-line{
 	line-height: 0rem;
 }
 
+/*BEGIN APPLE*/
+
+.apple {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  font-size: 52px;
+  z-index: 999;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.mac {
+  height: 613px;
+  width: 764px;
+  margin: 1340px auto 100px;
+  background: white url("../images/back_test1.jpg") no-repeat 0 0;
+  -webkit-background-size: 764px 613px;
+  background-size: 764px 613px;
+  backface-visibility: hidden;
+}
+
+.mac.intro {
+  position: fixed;
+  width: 2548px;
+  z-index:9999;
+  height: 2052px;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+  margin: 0;
+  top: 0;
+  left: 50%;
+  margin-top: -300px;
+  margin-left: -1274px;
+  -webkit-transform-origin: 50%;
+  -ms-transform-origin: 50%;
+  transform-origin: 50%;
+}
+
+/*END APPLE*/
+
 /*------------------------------------------------------------------
 [22. Resolution Media Queries]
 */
