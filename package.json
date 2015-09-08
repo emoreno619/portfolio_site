@@ -1,0 +1,19 @@
+{
+  "name": "portfolio_site",
+  "version": "1.0.0",
+  "description": "[a link to this site in action](http://emoreno619.github.io/portfolio_site/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emoreno619/portfolio_site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emoreno619/portfolio_site/issues"
+  },
+  "homepage": "https://github.com/emoreno619/portfolio_site"
+}

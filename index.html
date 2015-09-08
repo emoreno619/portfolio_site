@@ -126,7 +126,18 @@
 			<!-- Header End -->
 
 			<!-- Content -->
-			<div class="intro mac"></div>
+			<div class="intro mac">
+				<!-- Typed.js Begin -->
+
+				<div class="center" style="margin-top: 350px; ">
+						<h1>
+						<span class="element color-green-light" style="font-family: ‘Lucida Console’, Monaco, monospace;">
+						</span>
+						</h1>
+				</div>
+
+				<!-- Typed.js End -->
+			</div>
 		    <div id="mac" class="mac"></div>
 
 			<div class="content clearfix reveal-side-navigation">
@@ -662,7 +673,7 @@
 									<div class="hero-content-inner left-on-mobile color-white" style="padding-right:18rem;">
 										<!-- <h2 class="weight-bold mb-30">The Story</h2> -->
 										<p class="lead color-charcoal">
-										
+													
 													Full stack developer passionate about language, 
 													logic and writing code. Humble, empathetic, curious. 
 													Loves to learn and collaborate. Seeking a team where 
@@ -1230,6 +1241,14 @@
 	<script src="js/template-functions.js"></script>
 
 	<script type="text/javascript" src="js/jquery.tm.retinize.js"></script>
-
+	<script src="js/typed.js"></script>
+	<script>
+	    $(function(){
+	        $(".element").typed({
+	            strings: ["First sentence.", "Second sentence."],
+	            typeSpeed: 0
+	        });
+	    });
+	</script>
 </body>
 </html>
