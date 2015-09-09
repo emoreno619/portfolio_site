@@ -1234,7 +1234,7 @@ $( document ).ready( function(){
 
 				// Check action, method and
 				// serialize input
-				var formUrl = form.attr( 'action' );
+				var formUrl = "http://emoreno619.github.io/serves_email/send-email.php";
 				var formMethod = form.attr( 'method' );
 				var formData = form.serialize();
 
