@@ -14,6 +14,9 @@
 	'use strict';
 
 	// BEGIN APPLE
+	$(window).on('beforeunload', function(){
+	  $(window).scrollTop(0);
+	});
 
 	var el = $('.intro'),
 	        mac = $('#mac'),
