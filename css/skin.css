@@ -1276,13 +1276,13 @@ h5.project-title{
 	background-size: 75% !important;
 }
 .project-5-1{
-	background-image: url(../images/portfolio/project-5/iphone-fs-1@2x.jpg);
+	background-image: url(https://s3.amazonaws.com/poly-screenshots.angel.co/Project/30/52561/400ac66e3954d5ae6f6ba0824d2bac7f-preview505_jpg.jpg);
 }
 .project-5-2{
-	background-image: url(../images/portfolio/project-5/iphone-fs-2@2x.jpg);
+	background-image: url(https://s3.amazonaws.com/poly-screenshots.angel.co/Project/30/52561/6167d4e3aef6151d9aca8f4df9d79f05-preview505_jpg.jpg);
 }
 .hero-5-project-5 > .row:after{
-	background-image: url(../images/portfolio/project-5/hero-half-1@2x.jpg);
+	background-image: url(http://mathworld.wolfram.com/images/eps-gif/GaltonBoard_1000.gif);
 }
 
 /* Project 6 */
