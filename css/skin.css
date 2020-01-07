@@ -2552,7 +2552,7 @@ a.disabled .text-line{
   height: 613px;
   width: 764px;
   margin: 1340px auto 100px;
-  background: white url("../images/back_test1.jpg") no-repeat 0 0;
+  background: white url("../images/back_test1_smaller.jpg") no-repeat 0 0;
   -webkit-background-size: 764px 613px;
   background-size: 764px 613px;
   backface-visibility: hidden;
