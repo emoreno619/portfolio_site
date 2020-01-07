@@ -86,7 +86,7 @@
 					<div class="row nav-bar reveal-side-navigation">
 						<div class="column width-12 nav-bar-inner">
 							<div class="logo">
-								<a href="../index.html"><img src="../images/logo.png" alt="Conrad Logo White" /></a>
+								<a href="../index.html"><img src="../images/logo.jpg" alt="Eduardo Moreno - Full Stack Developer" /></a>
 							</div>
 							<div id="side-nav-show" class="navigation-show hide">
 								<a href="#">
@@ -150,13 +150,13 @@
 												<h1 class="tms-caption title-xlarge color-white weight-bold lspacing-medium no-margins"
 													data-animate-in="opacity:0;transX:40px;duration:600ms;delay:0;easing:easeFastSlow;"
 												>
-													Macaw
+													Galton Board
 												</h1>
 											</div>
 										</div>
 									</div>
 								</div>
-								<img data-src="../images/slider/slide-10-fw.jpg" data-retina src="../images/blank.png" alt=""/>
+								<img data-src="../images/show_header3.jpg" data-retina src="../images/show_header.jpg" alt=""/>
 							</li>
 						</ul>
 					</div>
@@ -167,10 +167,9 @@
 				<section class="section-block replicable-content">
 					<div class="row">
 						<div class="column width-8">
-							<h3 class="weight-bold mb-30">Image Editor</h3>
-							<p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-							<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut.</p>
-							<ul class="social-list list-horizontal share">
+							<h3 class="weight-bold mb-30">c++ virtual "Galton Board" simulates normal distribution</h3>
+							<p class="lead">	</p>
+							<!-- <ul class="social-list list-horizontal share">
 								<li class="social-list-label">
 									<span class="stat">
 										<span class="stat-inner">
@@ -179,27 +178,25 @@
 									</span>
 								</li>
 								<li><a onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + location.href, 'sharer', 'width=626,height=436');" href="javascript: void(0)" title="Share on Facebook">Facebook</a>/</li>
-								<li><a onclick="popUp=window.open('https://twitter.com/share?url=Your-Site-Url', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false;" href="javascript: void(0)" title="Share on Twitter">Twitter</a>/</li>
+								<li><a onclick="popUp=window.open('https://twitter.com/share?url=Your-Site-Url', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false;" href="javascript: void(0)" title="Share on Twitter">Twitter</a>/</li> -->
 								<!--<li><a onclick="popUp=window.open('http://pinterest.com/pin/create/button/?url=Your-Site-Url&amp;media=Your-Image-Url&amp;description=Your-Image-Description', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false;" href="javascript: void(0)" title="Pin on Pinterest">Pinterest</a>/</li>-->
-								<li><a onclick="popUp=window.open('https://plus.google.com/share?url=Your-Site-Url', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false;" href="javascript: void(0)" title="Share on Google Plus">Google+</a></li>
-							</ul>
+								<!-- <li><a onclick="popUp=window.open('https://plus.google.com/share?url=Your-Site-Url', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false;" href="javascript: void(0)" title="Share on Google Plus">Google+</a></li>
+							</ul> -->
 						</div>
 						<div class="column width-4">
 							<ul class="list-group">
 								<li>
-									<strong>Client</strong>
-									<p>Id App Software</p>
+									<strong>Language</strong>
+									<p>c++</p>
 								</li>
 								<li>
-									<strong>Deliverables</strong>
-									<p>Design<br>
-										Development<br>
-									</p>
+									<strong>Date</strong>
+									<p></p>
 								</li>
 								<li>
-									<strong>Awards</strong>
-									<p>The Tech Award<br>
-										App of the Month
+									<strong>Links</strong>
+									<p>
+										<a href="https://github.com/emoreno619/cpp-coursework/tree/master/EduardoPointerPower">Git repo</a>
 									</p>
 								</li>
 							</ul>
@@ -214,8 +211,9 @@
 						<div class="column width-6">
 							<div class="hero-content split-hero-content">
 								<div class="hero-content-inner color-white">
-									<h5 class="mb-30">Macaw - Concept</h5>
-									<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+									<h5 class="mb-30">
+									<p>a "ball" is dropped at the top of the board, hits a series of pegs and randomly moves left or right upon striking each peg. The ball moves down 10 rows of pegs, and the number of balls for each final position is displayed, as well as histograms scaled to console window size.</p>
+									</h5>
 								</div>
 							</div>
 						</div>
@@ -231,37 +229,41 @@
 						</div>
 						<div class="fullscreen-inner background-on-mobile">
 							<div class="row">
-								<div class="column width-6">
-									<h3 class="weight-bold mb-30 color-white">Three Easy Steps</h3>
+								<div class="column width-4">
+									<h3 class="weight-bold mb-30 color-white">the program</h3>
 									<div class="tabs horizontal left">
 										<ul class="tab-nav">
 											<li class="active">
-												<a href="#tabs-1-pane-1">01 Snap</a>
+												<a href="#tabs-1-pane-1">01 concept</a>
 											</li>
 											<li>
-												<a href="#tabs-1-pane-2">02 Edit</a>
+												<a href="#tabs-1-pane-2">02 code</a>
 											</li>
 											<li>
-												<a href="#tabs-1-pane-3">03 Export</a>
+												<a href="#tabs-1-pane-3">03 repo</a>
 											</li>
 										</ul>
 										<div class="tab-panes">
 											<div id="tabs-1-pane-1" class="active animate">
 												<div class="tab-content">
-													<h5 class="font-alt-1 color-white">Take a Photo</h5>
-													<p class="color-grey-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+													<h5 class="font-alt-1 color-white">simulation of the 'board'</h5>
+													<p class="color-grey-light">the 'board' is composed of an 2d array of pointers to pointers of 'pegs' objects. a 'ball' object then descends rows of increasing numbers of pegs with 50-50 odds to go either left or right upon striking each peg. the total number of 'balls' that strike each 'peg' is displayed and updated.</p>
 												</div>
 											</div>
 											<div id="tabs-1-pane-2">
 												<div class="tab-content">
-													<h5 class="font-alt-1 color-white">Select Color</h5>
-													<p class="color-grey-light">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+													<h5 class="font-alt-1 color-white">pointer array code snippet</h5>
+													<p class="color-grey-light">
+														<img src="../images/gelp_code.png" alt="">
+													</p>
 												</div>
 											</div>
 											<div id="tabs-1-pane-3">
 												<div class="tab-content">
-													<h5 class="font-alt-1 color-white">Export to any Software</h5>
-													<p class="color-grey-light">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+													<h5 class="font-alt-1 color-white">Github Repo</h5>
+													<p class="color-grey-light">
+														<a href="https://github.com/emoreno619/cpp-coursework/tree/master/EduardoPointerPower">Galton Board Normal Distribution - "Pointer Power"</a>
+													</p>
 												</div>
 											</div>
 										</div>
@@ -277,21 +279,21 @@
 						<div class="fullscreen-inner background-on-mobile">
 							<div class="row">
 								<div class="column width-6">
-									<h3 class="weight-bold mb-30">Save &amp; Apply</h3>
+									<h3 class="weight-bold mb-30">showing data</h3>
 									<div class="tabs horizontal left">
 										<ul class="tab-nav">
 											<li class="active">
-												<a href="#tabs-2-pane-1">01 Create a Library</a>
+												<a href="#tabs-2-pane-1">concept</a>
 											</li>
 											<li>
-												<a href="#tabs-2-pane-2">02 Share and Build</a>
+												<a href="#tabs-2-pane-2">02 code</a>
 											</li>
 										</ul>
 										<div class="tab-panes">
 											<div id="tabs-2-pane-1" class="active animate">
 												<div class="tab-content">
-													<h5 class="font-alt-1">Merge Photos</h5>
-													<p class="color-grey-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+													<h5 class="font-alt-1">histogram!</h5>
+													<p class="color-grey-light">After the board is filled and all balls dropped, a histogram displays the relative distribution of balls that landed in each column, and scales to console window size </p>
 												</div>
 											</div>
 											<div id="tabs-2-pane-2">
@@ -311,7 +313,7 @@
 
 				<!-- Slider Bkg Video Section -->
 				<section class="section-block featured-media">
-					<div class="tm-slider-container full-width-slider">
+					<!-- <div class="tm-slider-container full-width-slider">
 						<ul class="tms-slides">
 							<li class="tms-slide" data-image data-force-fit>
 								<div class="tms-content">
@@ -337,7 +339,7 @@
 								<img data-src="../images/portfolio/project-5/bkg-video-poster.jpg" data-retina src="../images/blank.png" alt=""/>
 							</li>
 						</ul>
-					</div>
+					</div> -->
 				</section>
 				<!-- Slider Bkg Video Section End -->
 
@@ -380,12 +382,12 @@
 									<div class="widget">
 										<h4>Featured Projects</h4>
 										<ul>
-											<li><a href="#">Rockabilly Barber</a></li>
-											<li><a href="#">The Cantina Restaurant</a></li>
-											<li><a href="#">Be Street Clothing Co</a></li>
-											<li><a href="#">Mocachino Coffee Masters</a></li>
-											<li><a href="#">8350 Distillery</a></li>
-											<li><a href="#">Macaw Mobile App</a></li>
+											<li><a href="./portfolio/mobile-app.html">Gelp+</a></li>
+											<li><a href="./portfolio/mobile-app.html">Glorious Options</a></li>
+											<li><a href="./galton-board-app.html">Galton Board</a></li>
+											<li><a href="./portfolio/mobile-app.html">MEAN Tea Shopping Cart App</a></li>
+											<li><a href="./portfolio/mobile-app.html">Angular Reddit Clone</a></li>
+											<li><a href="./portfolio/mobile-app.html">Affirmative Interaction</a></li>
 										</ul>
 									</div>
 								</div>
@@ -408,7 +410,7 @@
 										</ul>
 									</div>
 								</div>
-								<div class="grid-item">
+								<!-- <div class="grid-item">
 									<h4>Stay Creative</h4>
 									<div class="signup-form-container">
 										<form class="signup-form" action="#" method="post" novalidate>
@@ -433,7 +435,7 @@
 										</form>
 										<div class="form-response color-white show">We don't spam, promise!</div>
 									</div>
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</div>

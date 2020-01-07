@@ -8,6 +8,8 @@
 	- add links to philosophy articles
 	- project show pages
 	- email issue?
+	- favicon
+	- weird scroll issue on first open (immediately jumps, without zoom in/out effect)
 -->
 
 <html lang="en">
@@ -28,10 +30,22 @@
 	<link rel="stylesheet" href="css/avalanche.css" />
 	<link rel="stylesheet" href="css/templates.css" />
 	<link rel="stylesheet" href="css/skin.css" />
+	<script src="js/jquery-1.11.2.min.js"></script>
 
 	<!--[if lt IE 9]>
     	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <script src="js/typed.js"></script>
+    <script>
+        $(function(){
+            $(".element").typed({
+                strings: [" Eduardo Moreno \n\n\t\t\tFull Stack Web Developer\n\n\n\n\t\t\tSCROLL down for more!"],
+                startDelay: 1000,
+                typeSpeed: 0
+            });
+        });
+    </script>
 
 </head>
 <body class="home-page">
@@ -95,17 +109,15 @@
 									</li>
 									<li class="smb-4">
 										<a href="#folio" class="scroll-link" data-offset="-60">Folio</a>
-										<!-- <ul class="sub-menu">
-											<li class="current">
-												<a href="index.html">Onepage Default</a>
-											</li>
-											<li>
-												<a href="index-with-parallax.html">Onepage with Parallax</a>
-											</li>
-											<li>
-												<a href="index-with-video.html">Onepage with Video</a>
-											</li>
-										</ul> -->
+										<ul class="sub-menu">
+											<li><a href="https://github.com/emoreno619/yelpData">Yopics</a></li>
+											<li><a href="./portfolio/galton-board-app.html">Galton Board</a></li>
+											<li><a href="./portfolio/gelp-app.html">Gelp+</a></li>
+											<li><a href="./portfolio/glorious-options-app.html">Glorious Options</a></li>
+											<li><a href="./portfolio/mean-tea-app.html">MEAN Tea Shopping Cart App</a></li>
+											<li><a href="./portfolio/fe-reddit-app.html">Angular Reddit Clone</a></li>
+											<li><a href="./portfolio/affirmative-interaction-app.html">Affirmative Interaction</a></li>
+										</ul>
 									</li>
 									<li class="smb-2">
 										<a href="#about" class="scroll-link" data-offset="-60">About</a>
@@ -129,9 +141,9 @@
 					<div class="intro mac">
 						<!-- Typed.js Begin -->
 
-						<div style="margin-top: 325px; white-space:pre; z-index:998">
-								<h1 style="z-index: 999;">
-									<span class="element color-green-light" style="font-family: ‘Lucida Console’, Monaco, monospace; z-index: 1000;">
+						<div style="margin-top: 325px; white-space:pre; ">
+								<h1>
+									<span class="element color-green-light" style="font-family: ‘Lucida Console’, Monaco, monospace;">
 									</span>
 								</h1>
 
@@ -142,10 +154,10 @@
 				    <div id="mac" class="mac">
 				    	<div style="margin-left: 270px; padding-top: 135px;">
 				    		<h5 class="color-green-light" style="font-family: ‘Lucida Console’, Monaco, monospace;">
-								<!-- <span class="element color-green-light" style="font-family: ‘Lucida Console’, Monaco, monospace; z-index: 1000;"> -->
+								<!-- <span class="element color-green-light" style="font-family: ‘Lucida Console’, Monaco, monospace;"> -->
 									Eduardo Moreno <br><br>
 									Full Stack Web Developer <br><br><br>
-									SCROLL down for more!
+									<a href="#folio" class="scroll-link">S</a>CROLL down for more!
 								<!-- </span> -->
 				    		</h5>
 				    	</div>
@@ -199,7 +211,7 @@
 												<span class="overlay-info">
 													<span>
 														<span>
-															<span class="project-title"><h3 style="color: white;">Node.js</h3></span>
+															<span class="project-title"><h3><a class="color-white large" href="./portfolio/gelp-app.html">NODE.JS</a></h3></span>
 															<br>
 															<span><a title="git repo" href="https://github.com/emoreno619/sentimentAnalysis" class="icon-code color-white large rounded" target="_blank"></a></span>
 															<span><a title="app in action" href="https://gelp-plus.herokuapp.com/" class="icon-link color-white large rounded" target="_blank"></a></span>
@@ -216,7 +228,7 @@
 												<span class="overlay-info">
 													<span>
 														<span>
-															<span class="project-title"><h3 style="color: white;">C++</h3></span>
+															<span class="project-title"><h3><a class="color-white large" href="./portfolio/galton-board-app.html">C++</a></h3></span>
 															<br>
 															<span><a title="git repo" href="https://github.com/emoreno619/cpp-coursework/tree/master/EduardoPointerPower" class="icon-code color-white color-white large rounded" target="_blank"></a></span>
 															<span><a title="app in action" href="https://github.com/emoreno619/cpp-coursework/tree/master/EduardoPointerPower" class="icon-link color-white large rounded" target="_blank"></a></span>
@@ -229,11 +241,28 @@
 									<div class="grid-item large backend frontend both deployed">
 										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="000000" data-hover-bkg-opacity="0.6">
 											<span>
+												<img src="images/yopics_smaller.png" alt=""/>	
+												<span class="overlay-info">
+													<span>
+														<span>
+															<span class="project-title"><h3><a class="color-white large" href="https://github.com/emoreno619/yelpData">Node.js + Python</a></h3></span>
+															<br>
+															<span><a title="git repo" href="https://github.com/emoreno619/yelpData" class="icon-code color-white xlarge rounded" target="_blank"></a></span>
+															<span><a title="app in action" href="https://yopics.herokuapp.com/" class="icon-link color-white xlarge rounded" target="_blank"></a></span>
+														</span>
+													</span>
+												</span>
+											</span>
+										</div>
+									</div>
+									<div class="grid-item backend frontend both deployed">
+										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="000000" data-hover-bkg-opacity="0.6">
+											<span>
 												<img src="images/rails_group_with_pics_small.png" alt=""/>	
 												<span class="overlay-info">
 													<span>
 														<span>
-															<span class="project-title"><h3 style="color: white;">Ruby on Rails</h3></span>
+															<span class="project-title"><h3><a class="color-white large" href="./portfolio/glorious-options-app.html">Ruby on Rails</a></h3></span>
 															<br>
 															<span><a title="git repo" href="https://github.com/emoreno619/gSchoolRailsGroup_Eduardo_Jaya_Matthew" class="icon-code color-white xlarge rounded" target="_blank"></a></span>
 															<span><a title="app in action" href="https://powerful-beyond-3469.herokuapp.com/#" class="icon-link color-white xlarge rounded" target="_blank"></a></span>
@@ -245,32 +274,15 @@
 									</div>
 									<div class="grid-item frontend">
 										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="000000" data-hover-bkg-opacity="0.6">
-											<span class="overlay-link" href="portfolio/restaurant.html">
+											<span class="overlay-link no-page-fade" href="./portfolio/galton-board-app.html">
 												<img src="images/meanteascreen_small.png" alt=""/>
 												<span class="overlay-info">
 													<span>
 														<span>
-															<span class="project-title"><h3 style="color: white;">AngularJS</h3></span>
+															<span class="project-title"><h3><a class="color-white large" href="./portfolio/mean-tea-app.html">AngularJS</a></h3></span>
 															<br>
 															<span><a title="git repo" href="https://github.com/emoreno619/second_angular/tree/master/shopping_cart" class="icon-code color-white large rounded" target="_blank"></a></span>
 															<span><a title="app in action" href="https://github.com/emoreno619/second_angular/tree/master/shopping_cart" class="icon-link color-white large rounded" target="_blank"></a></span>
-														</span>
-													</span>
-												</span>
-											</span>
-										</div>
-									</div>
-									<div class="grid-item frontend deployed">
-										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="000000" data-hover-bkg-opacity="0.6">
-											<span>
-												<img src="images/reddit_angular_clone_small.png" alt=""/>
-												<span class="overlay-info">
-													<span>
-														<span>
-															<span class="project-title"><h3 style="color: white;">AngularJS</h3></span>
-															<br>
-															<span><a title="git repo" href="https://github.com/emoreno619/second_angular/blob/master/reddit_refactored" class="icon-code color-white large rounded" target="_blank"></a></span>
-															<span><a title="app in action" href="http://emoreno619.github.io/reddit_deploy/#" class="icon-link color-white large rounded" target="_blank"></a></span>
 														</span>
 													</span>
 												</span>
@@ -284,10 +296,27 @@
 												<span class="overlay-info">
 													<span>
 														<span>
-															<span class="project-title"><h3 style="color: white;">C++</h3></span>
+															<span class="project-title"><h3><a class="color-white large" href="./portfolio/affirmative-interaction-app.html">C++</a></h3></span>
 															<br>
 															<span><a title="git repo" href="https://github.com/emoreno619/cpp-coursework/tree/master/TA_AI" class="icon-code color-white large rounded" target="_blank"></a></span>
 															<span><a title="app in action" href="https://github.com/emoreno619/cpp-coursework/tree/master/TA_AI" class="icon-link color-white large rounded" target="_blank"></a></span>
+														</span>
+													</span>
+												</span>
+											</span>
+										</div>
+									</div>
+									<div class="grid-item frontend deployed">
+										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="000000" data-hover-bkg-opacity="0.6">
+											<span>
+												<img src="images/reddit_angular_clone_small.png" alt=""/>
+												<span class="overlay-info">
+													<span>
+														<span>
+															<span class="project-title"><h3><a class="color-white large" href="./portfolio/fe-reddit-app.html">AngularJS</a></h3></span>
+															<br>
+															<span><a title="git repo" href="https://github.com/emoreno619/second_angular/blob/master/reddit_refactored" class="icon-code color-white large rounded" target="_blank"></a></span>
+															<span><a title="app in action" href="http://emoreno619.github.io/reddit_deploy/#" class="icon-link color-white large rounded" target="_blank"></a></span>
 														</span>
 													</span>
 												</span>
@@ -748,7 +777,7 @@
 							<div class="column width-10 left">
 								<h2 class="weight-bold mb-30">Contact</h2>
 								<p class="lead"><strong>Looking to join a team</strong> where I can both hit the ground running with original contributions and continue to grow as a developer. </p>
-								<p class="lead">See my recommendations <span class="color-hover-green-light"><a href="https://www.linkedin.com/in/emoreno619?locale=en_US&trk=prof-0-sb-preview-primary-button#recommendations" target="_blank"><strong>here</strong></a></span> and <a href="http://www.wyzant.com/Tutors/Eduardo619" target="_blank"><strong>here</strong></a>.</p>
+								<p class="lead">See my recommendations <span class="color-hover-green-light"><a href="https://www.linkedin.com/in/emoreno619?locale=en_US&trk=prof-0-sb-preview-primary-button#recommendations" target="_blank"><strong>here</strong></a></span>.
 							</div>
 						</div>
 					</div>
@@ -759,7 +788,7 @@
 						<div class="row">
 							<div class="column width-12">
 							</div>
-							<div class="column width-7">
+							<div class="column width-2">
 								<!-- <h4 class="weight-bold">Let's Talk</h4>
 								<div class="contact-form-container">
 									<form class="contact-form" action="php/send-email.php" method="post" novalidate>
@@ -805,7 +834,7 @@
 									<div class="form-response"></div> -->
 								</div>
 							</div>
-							<div class="column width-5">
+							<div class="column width-8">
 								<h4 class="weight-bold mb-30">Inquiries</h4>
 								<div class="box xlarge bkg-grey-ultralight">
 									<p class="lead"><a target="_blank" href="http://emoreno619.github.io/pdf_host/Moreno_Eduardo_Resume.pdf"><u>My Resume.pdf</u></a>
@@ -819,6 +848,7 @@
 									<strong>Phone:</strong> +1 619-301-5497
 								</div>
 							</div>
+							<div class="column width-2"/>
 						</div>
 					</section>
 					<!--Contact Form End -->
@@ -846,16 +876,16 @@
 									<div class="widget">
 										<h4>Featured Projects</h4>
 										<ul>
-											<li><a href="./portfolio/barber-shop.html">Gelp+</a></li>
-											<li><a href="./portfolio/clothing.html">Glorious Options</a></li>
-											<li><a href="./portfolio/mobile-app.html">Galton Board</a></li>
-											<li><a href="./portfolio/packaging.html">MEAN Tea Shopping Cart App</a></li>
-											<li><a href="./portfolio/restaurant.html">Angular Reddit Clone</a></li>
-											<li><a href="./portfolio/sports.html">Affirmative Interaction</a></li>
+											<li><a href="./portfolio/gelp-app.html">Gelp+</a></li>
+											<li><a href="./portfolio/glorious-options-app.html">Glorious Options</a></li>
+											<li><a href="./portfolio/galton-board-app.html">Galton Board</a></li>
+											<li><a href="./portfolio/mean-tea-app.html">MEAN Tea Shopping Cart App</a></li>
+											<li><a href="./portfolio/fe-reddit-app.html">Angular Reddit Clone</a></li>
+											<li><a href="./portfolio/affirmative-interaction-app.html">Affirmative Interaction</a></li>
 										</ul>
 									</div>
 								</div>
-								<div class="grid-item">
+								<!-- <div class="grid-item">
 									<div class="widget">
 										<h4>From the Blog</h4>
 										<ul class="list-group large">
@@ -873,7 +903,7 @@
 											</li>
 										</ul>
 									</div>
-								</div>
+								</div> -->
 								<!-- <div class="grid-item">
 									<h4>Stay Creative</h4>
 									<div class="signup-form-container">
@@ -931,21 +961,9 @@
 	</div>
 
 	<!-- Js -->
-	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="http://maps.googleapis.com/maps/api/js?v=3"></script>
 	<script src="js/timber.master.min.js"></script>
 	<script src="js/template-functions.js"></script>
 	<script type="text/javascript" src="js/jquery.tm.retinize.js"></script>
-	
-	<script src="js/typed.js"></script>
-	<script>
-	    $(function(){
-	        $(".element").typed({
-	            strings: [" Eduardo Moreno \n\n\t\t\tFull Stack Web Developer\n\n\n\n\t\t\tSCROLL down for more!"],
-	            startDelay: 1500,
-	            typeSpeed: 0
-	        });
-	    });
-	</script>
 </body>
 </html>

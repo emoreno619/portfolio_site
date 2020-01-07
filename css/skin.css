@@ -1276,13 +1276,13 @@ h5.project-title{
 	background-size: 75% !important;
 }
 .project-5-1{
-	background-image: url(../images/portfolio/project-5/iphone-fs-1@2x.jpg);
+	background-image: url(https://s3.amazonaws.com/poly-screenshots.angel.co/Project/30/52561/400ac66e3954d5ae6f6ba0824d2bac7f-preview505_jpg.jpg);
 }
 .project-5-2{
-	background-image: url(../images/portfolio/project-5/iphone-fs-2@2x.jpg);
+	background-image: url(https://s3.amazonaws.com/poly-screenshots.angel.co/Project/30/52561/6167d4e3aef6151d9aca8f4df9d79f05-preview505_jpg.jpg);
 }
 .hero-5-project-5 > .row:after{
-	background-image: url(../images/portfolio/project-5/hero-half-1@2x.jpg);
+	background-image: url(http://mathworld.wolfram.com/images/eps-gif/GaltonBoard_1000.gif);
 }
 
 /* Project 6 */
@@ -1356,10 +1356,10 @@ h5.project-title{
 	background-image: url(../images/portfolio/pagination/project-4-next.jpg);
 }
 .project-5-prev{
-	background-image: url(../images/portfolio/pagination/project-5-prev.jpg);
+	background-image: url(../images/rails_group_with_pics.png);
 }
 .project-5-next{
-	background-image: url(../images/portfolio/pagination/project-5-next.jpg);
+	background-image: url(../images/meanteascreen_small.png);
 }
 .project-6-prev{
 	background-image: url(../images/portfolio/pagination/project-6-prev.jpg);
@@ -2552,7 +2552,7 @@ a.disabled .text-line{
   height: 613px;
   width: 764px;
   margin: 1340px auto 100px;
-  background: white url("../images/back_test1.jpg") no-repeat 0 0;
+  background: white url("../images/back_test1_smaller.jpg") no-repeat 0 0;
   -webkit-background-size: 764px 613px;
   background-size: 764px 613px;
   backface-visibility: hidden;
@@ -2750,10 +2750,10 @@ only screen and (				min-resolution: 2dppx) {
 		background-image: url(../images/portfolio/pagination/project-4-next@2x.jpg);
 	}
 	.project-5-prev{
-		background-image: url(../images/portfolio/pagination/project-5-prev@2x.jpg);
+		background-image: url(../images/rails_group_with_pics.png);
 	}
 	.project-5-next{
-		background-image: url(../images/portfolio/pagination/project-5-next@2x.jpg);
+		background-image: url(../images/meanteascreen_small.png);
 	}
 	.project-6-prev{
 		background-image: url(../images/portfolio/pagination/project-6-prev@2x.jpg);
